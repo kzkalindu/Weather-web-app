@@ -494,6 +494,16 @@ main {
   overflow: hidden;
 }
 
+article.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+  height: 100%;
+  /* for firefox */
+  overflow-y: auto;
+  overflow-y: overlay;
+}
 
 
 
